@@ -1,0 +1,20 @@
+.lista__ordenacao {
+  margin-top: 3.5em;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  gap: 1.75em;
+}
+
+.lista__ordenacao li {
+  font-size: 1.375em;
+  list-style-type: none;
+  color: var(--cinza-medio);
+}
+
+.lista__ordenacao .ativo {
+  color: var(--verde-destaque);
+  list-style-type: disc;
+  font-weight: bold;
+  border-bottom: 1px solid var(--verde-destaque);
+}
